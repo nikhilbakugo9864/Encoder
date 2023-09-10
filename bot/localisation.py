@@ -25,7 +25,7 @@ class Localisation:
     
     COMPRESS_SUCCESS = "ᴇɴᴄᴏᴅᴇᴅ ʙʏ []"
 
-    COMPRESS_PROGRESS = "🕛 ETA: {}\n♻️ Progress: {}%"
+    COMPRESS_PROGRESS = "🕛 ETA: {}♻️ Progress: {}%"
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     
