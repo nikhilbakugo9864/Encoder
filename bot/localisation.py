@@ -25,7 +25,7 @@ class Localisation:
     
     # ...
 
-    file_name = "download/path"
+    file_name = "/app/downloads"
 
     # ...
 
