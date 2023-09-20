@@ -10,13 +10,13 @@ class Config(object):
     LOG_CHANNEL = -1001900431488  # Updated with your log channel ID
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
     # Get these values from my.telegram.org
-    AUTH_USERS = {2020270268, 5009250822}
+    AUTH_USERS = {2020270268, 6606035596}
     # auth users jdk 
-    TG_BOT_TOKEN = "6096620656:AAEysjdqjmPmL40kHxZvm5BpcS9eZvnFQpM"  # Updated with your bot token
+    TG_BOT_TOKEN = "5920134040:AAFdVmx74J9geUxLqdtU55HutXjml3huPHU"  # Updated with your bot token
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
-    BOT_USERNAME = "zero_two_encoding_bot"  # Updated with your bot username
+    BOT_USERNAME = "CHIZURU_MIZUHARA_encode_bot"  # Updated with your bot username
     MAX_FILE_SIZE = 2097152000
     TG_MAX_FILE_SIZE = 2097152000
     FREE_USER_MAX_FILE_SIZE = 2097152000
