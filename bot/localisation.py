@@ -3,7 +3,7 @@
 # (c) @AbirHasan2005
 
 from bot.get_cfg import get_config
-
+import anitopy
 
 class Localisation:
     START_TEXT = "Hello, \n\nThis is a Telegram <b>Video Encoder Bot</b>. \n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n/help for more details. \n\nOwner : @ninja_naruto_sai_2"
@@ -23,7 +23,20 @@ class Localisation:
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
       
-    COMPRESS_SUCCESS = "☆ @TheBatmanShan"
+    COMPRESS_SUCCESS = "saved_file_path = video
+      eni = saved_file_path.split("/")[-1]
+      xnx = eni.split(".")[-1]
+      opm = eni.replace(f".{xnx}", " .mkv")
+      nam = opm.replace("_", " ")
+      nam = opm.replace(".", " ")
+      anitopy_options = {'allowed_delimiters': ' '}
+      new_name = anitopy.parse(nam)
+      anime_name = new_name['anime_title']
+      episode_no = new_name['episode_number']  
+      joined_string = f"[{anime_name}] [Episode {episode_no}] [@Anime_Compass!🧭.mkv]"
+      if 'anime_season' in new_name.keys():
+        animes_season = new_name['anime_season']
+        joined_string = f"[{anime_name}] [Season {animes_season}] [Episode {episode_no}] [@Anime_Compass!🧭.mkv]""
 
     COMPRESS_PROGRESS = "🌄 ETA: {} 💦 Progress: {}%"
 
