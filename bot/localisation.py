@@ -23,20 +23,8 @@ class Localisation:
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
       
-    COMPRESS_SUCCESS = "eni = saved_file_path.split("/")[-1]
-      xnx = eni.split(".")[-1]
-      opm = eni.replace(f".{xnx}", " .mkv")
-      nam = opm.replace("_", " ")
-      nam = opm.replace(".", " ")
-      anitopy_options = {'allowed_delimiters': ' '}
-      new_name = anitopy.parse(nam)
-      anime_name = new_name['anime_title']
-      episode_no = new_name['episode_number']  
-      joined_string = f"[{anime_name}] [Episode {episode_no}] [@Anime_Compass!🧭.mkv]"
-      if 'anime_season' in new_name.keys():
-        animes_season = new_name['anime_season']
-        joined_string = f"[{anime_name}] [Season {animes_season}] [Episode {episode_no}] [@Anime_Compass!🧭.mkv]""
-
+    COMPRESS_SUCCESS = "@Zoro"
+    
     COMPRESS_PROGRESS = "🌄 ETA: {} 💦 Progress: {}%"
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
